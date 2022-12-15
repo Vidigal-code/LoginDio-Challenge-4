@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/LoginDio-Challenge-4/static/css/main.739b118e.css",
+    "main.js": "/LoginDio-Challenge-4/static/js/main.e88ef7e9.js",
+    "static/media/Roboto-Bold.ttf": "/LoginDio-Challenge-4/static/media/Roboto-Bold.f80816a5455d171f948d.ttf",
+    "index.html": "/LoginDio-Challenge-4/index.html",
+    "main.739b118e.css.map": "/LoginDio-Challenge-4/static/css/main.739b118e.css.map",
+    "main.e88ef7e9.js.map": "/LoginDio-Challenge-4/static/js/main.e88ef7e9.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.739b118e.css",
+    "static/js/main.e88ef7e9.js"
+  ]
+}
