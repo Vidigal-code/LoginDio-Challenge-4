@@ -1,0 +1,163 @@
+/* CREATED BY KAUAN VIDIGAL- GITHUB Vidigal-code (https://github.com/Vidigal-code) */
+
+@font-face {
+  font-family: "Roboto-Bold";
+  src: url(../src/assets/font/Roboto-Bold.ttf);
+}
+
+.form-login-card {
+  width: 90vw;
+  background-color: #3498DB;
+  color: #FFF;
+  border-radius: 10px;
+  box-shadow: 2px 4px 8px #0B4FBD;
+}
+
+.form-login-card-top {
+  background-color: #0B4FBD;
+  height: 10px;
+  border-radius: 10px 10px 0 0;
+}
+
+.containerall-form-login-card {
+  padding: 1rem 2rem 2rem;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+}
+
+.text-link {
+  padding: -800px 0;
+  margin: 2rem 0 1.5rem;
+  text-align: center;
+  text-decoration: none;
+  font-size: 15px;
+  color: #000;
+}
+
+.text-link:hover {
+  text-decoration:underline;
+  font-size: 13px;
+}
+.text-by {
+  padding: -400px 0;
+  margin: rem 0 1.5rem;
+  text-align: center;
+  font-size: 15px;
+}
+
+.text-login {
+  padding: -800px 0;
+  margin: .5rem 0 1.5rem;
+  text-align: center;
+}
+
+.container_login {
+  display: flex;
+  flex-direction: column;
+  margin: 0 0 1rem;
+  position: relative;
+  box-sizing: border-box;
+}
+
+.label_login {
+  margin: 0 0 0.6rem;
+  font-size: 1.1rem;
+}
+
+.input_email {
+  border-radius: 5px;
+}
+
+.input_senha {
+  border-radius: 5px 0 0 5px;
+}
+
+.input_login {
+  padding: 0.8rem;
+  background-color: #F7F9F9;
+  border: none;
+  color: #000;
+  outline: none;
+  font-size: 1rem;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.container_input {
+  display: flex;
+}
+
+.visualizar_senha {
+  cursor: pointer;
+  width: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #0B4FBD;
+  border-radius: 0 5px 5px 0;
+  
+}
+
+.senha_requisitos {
+  margin-top: .8rem;
+}
+
+.senha_requisito {
+  margin: 0 0 .2rem;
+  font-size: .7rem;
+  display: flex;
+  align-items: center;
+}
+
+.senha_requisito svg {
+  margin-right: .2rem;
+}
+
+.button-login {
+  font-size: 1rem;
+  margin: 1rem 0 0;
+  padding: 1rem;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  background-color: #00A6FF;
+  transition: 0.2s;
+}
+
+.button-login:hover {
+  background-color: #0B4FBD;
+}
+
+.button-login:disabled {
+  background-color: #EAECEE;
+  color: #9a99a4;
+}
+
+.redtextcolor {
+  color: #FF0000;
+  font-size: 15px;
+  font-family: "Roboto-Bold";
+}
+
+.greentextcolor {
+  color: #9EFF00;
+  font-size: 15px;
+  font-family: "Roboto-Bold";
+}
+
+@media screen and (min-width: 992px) {
+  .form-login-card {
+    width: 40vw;
+  }
+  .visualizar_senha {
+    top: 47px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .form-login-card {
+    width: 30vw;
+  }
+}
