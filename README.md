@@ -19,10 +19,10 @@ Repositório reservado para o Bootcamp Orange Tech +, uma parceria [Inter](https
 
 ## LoginDio-Challenge-4:
 <p align="center">
-<a href="" target="_blank">Click Here to view the Project</a>
+<a href="https://vidigal-code.github.io/LoginDio-Challenge-4/" target="_blank">Click Here to view the Project</a>
 </p>
 <br/>
-<img align="center" src="" alt=""/>
+<img align="center" src="https://github.com/Vidigal-code/LoginDio-Challenge-4/blob/main/src/assets/img/logindio.gif" alt="logindio"/>
 
 
 # Getting Started with Create React App
