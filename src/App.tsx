@@ -82,13 +82,14 @@ function App() {
               onChange={handleInput}
               required
             />
-            <div className="visualizar_senha" onClick={handleVisualizador}>
-              {viewPassowrd ? (
-                <AiFillEyeInvisible size={20} />
-              ) : (
-                <AiFillEye size={20} />
-              )}
-            </div>
+            <button
+                type="button"
+                className="visualizar_senha"
+                onClick={handleVisualizador}
+                aria-label={viewPassowrd ? "Hide password" : "Show password"}
+            >
+              {viewPassowrd ? <AiFillEyeInvisible size={20} /> : <AiFillEye size={20} />}
+            </button>
           </div>
           <div className="senha_requisitos">
             <p
